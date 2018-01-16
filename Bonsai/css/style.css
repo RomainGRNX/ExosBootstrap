@@ -1,0 +1,37 @@
+#nav_bg{
+  position:absolute;
+  margin:0;
+  top:0;
+  left:0;
+  width:100%;
+  height:auto;
+}
+
+#nav_logo{
+  display:flex;
+  flex-direction:row;
+}
+
+#nav_icon{
+  width:1.5em;
+  height:auto;
+}
+
+#nav_title{
+  margin-top:0.25em;
+  margin-left:0.5em;
+  color:white;
+}
+
+.nav_link_style{
+  color:white;
+}
+
+.nav_collapsed_button{
+  background-color:rgba(255,255,255,0.25);
+  border: 2px solid white;
+}
+.nav_collapsed_button:hover{
+  background-color:rgba(255,255,255,0.75);
+  border: 2px solid white;
+}
